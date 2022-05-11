@@ -1,9 +1,9 @@
 import "./App.css";
-import "../src/res/css/bootstrap.css";
-import "../src/res/css/fontawesome-all.css";
-import "../src/res/css/magnific-popup.css";
-import "../src/res/css/styles.css";
-import "../src/res/css/swiper.css";
+import "./res/css/bootstrap.css";
+import "./res/css/fontawesome-all.css";
+import "./res/css/magnific-popup.css";
+import "./res/css/styles.css";
+import "./res/css/swiper.css";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
 import SmallFeature from "./components/SmallFeature";
