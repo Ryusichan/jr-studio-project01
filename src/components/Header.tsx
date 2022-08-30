@@ -24,10 +24,10 @@ const Header = () => {
                 social connections to help you stay focused and get organized
               </p>
               <a className="btn-solid-lg" href="#your-link">
-                <i className="fab fa-apple"></i>DOWNLOAD
+                <i className="fab fa-apple"></i>APP STORE
               </a>
               <a className="btn-solid-lg" href="#your-link">
-                <i className="fab fa-google-play"></i>DOWNLOAD
+                <i className="fab fa-google-play"></i>PLAY STORE
               </a>
             </div>
           </div>

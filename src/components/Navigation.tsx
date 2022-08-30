@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const Navigation = () => {
   const Logo = require("./../res/images/logo.svg").default;
@@ -32,19 +33,37 @@ const Navigation = () => {
         <div className="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link page-scroll" href="#description">
+              <Link
+                to="description"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link page-scroll"
+              >
                 DESCRIPTION <span className="sr-only">(current)</span>
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link page-scroll" href="#features">
+              <Link
+                to="features"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link page-scroll"
+              >
                 FEATURES
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link page-scroll" href="#screens">
+              <Link
+                to="screens"
+                spy={true}
+                smooth={true}
+                duration={500}
+                className="nav-link page-scroll"
+              >
                 SCREENS
-              </a>
+              </Link>
             </li>
 
             {/* Dropdown Menu*/}
